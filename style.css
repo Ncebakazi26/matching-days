@@ -1,0 +1,70 @@
+body{
+    border: solid;
+   
+     background-color:  #ffe5e5;
+    border-width: thick;
+    border-width: thick;
+    width: auto;
+    height: 500px;
+    
+}
+.container{
+ margin-right: 50px;
+
+}
+.header{
+    text-align: center;
+}
+li{
+    border: solid;
+    color: black;
+    font-weight: bolder;
+    font-size: 30px;
+    list-style: none;
+    display: inline-flex;
+   padding: 13px;
+  
+    
+}
+ul{
+    display: inline;
+}
+
+h1{
+    font-size: 50px;
+}
+.firstD{
+font-size: 30px;
+
+}
+.SecondD{
+  font-size: 30px; 
+}
+.dates{
+    padding-left: 60px;
+
+}
+form{
+    padding-top: 100px;    
+}
+.dated{
+    float: right;
+    margin-top: -75px;
+    margin-right: 100px;
+}
+.date1{
+    padding: 5px;
+}
+.date2{
+    padding: 5px;
+}
+.dateMatch{
+    background-color: lawngreen;
+}
+.dateOne{
+    background-color: yellow;
+}
+.dateTwo{
+    background-color: red;
+}
+
