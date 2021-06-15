@@ -4,9 +4,9 @@ function matchingDays() {
     var weekDayarr = ["Sunday", "Monday", "Tuesday", "Wednsday", "Thursday", "Friday", "Saturday"]
 
     function setDate1(date) {
-        date1 = new Date(date) 
+        date1 = new Date(date)
     }
-    function getDate1(){
+    function getDate1() {
 
         return date1.getDay()
     }
@@ -14,30 +14,30 @@ function matchingDays() {
         return weekDayarr[getDate1()]
     }
     function setDate2(date) {
-         date2 = new Date(date)
-        
+        date2 = new Date(date)
+
     }
-    function getDate2(){
+    function getDate2() {
         return date2.getDay()
     }
 
     function getDay2() {
-      return weekDayarr[getDate2()]
+        return weekDayarr[getDate2()]
     }
     function matchingDates() {
-        if ( getDate1() === getDate2()) {
+        if (getDate1() === getDate2()) {
             return "green"
         }
         else if (getDate1() !== getDate2()) {
             if (getDate1()) {
                 return "yellow"
             }
-            if ( getDate2()) {
+            if (getDate2()) {
                 return "red"
             }
         }
     }
-    function weekArray(){
+    function weekArray() {
         return weekDayarr
     }
     return {
