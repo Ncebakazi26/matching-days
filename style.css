@@ -58,13 +58,13 @@ form{
 .date2{
     padding: 5px;
 }
-.dateMatch{
+.green{
     background-color: lawngreen;
 }
-.dateOne{
+.yellow{
     background-color: yellow;
 }
-.dateTwo{
+.red{
     background-color: red;
 }
 

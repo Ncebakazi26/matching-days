@@ -37,6 +37,9 @@ function matchingDays() {
             }
         }
     }
+    function weekArray(){
+        return weekDayarr
+    }
     return {
         setDate1,
         getDay1,
@@ -44,7 +47,8 @@ function matchingDays() {
         getDay2,
         matchingDates,
         getDate1,
-        getDate2
+        getDate2,
+        weekArray
 
     }
 
