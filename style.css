@@ -50,7 +50,8 @@ form{
 .dated{
     float: right;
     margin-top: -75px;
-    margin-right: 100px;
+    margin-right: 500px;
+    padding-top: 12px;
 }
 .date1{
     padding: 5px;
@@ -67,4 +68,8 @@ form{
 .red{
     background-color: red;
 }
+.day{
+    margin-top: 20px;
+}
+
 
